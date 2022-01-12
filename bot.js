@@ -40,3 +40,6 @@ const requestPhoneKeyboard = {
 //method to start get the script to pulling updates for telegram 
 
 bot.launch();
+
+
+//https://devcenter.heroku.com/articles/deploying-nodejs
