@@ -2,7 +2,17 @@ const { google } = require('googleapis');
 const puppeteer = require('puppeteer');
 
 module.exports = async function scrape() {
-    const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox']  });
+    const chromeOptions = {
+        headless: true,
+        defaultViewport: null,
+        args: [
+            "--incognito",
+            "--no-sandbox",
+            "--single-process",
+            "--no-zygote"
+        ],
+    };
+    const browser = await puppeteer.launch(chromeOptions);
     const page = await browser.newPage();
     await page.goto('https://www.oree.com.ua/index.php/pricectr');
     await page.waitForSelector('tbody');
