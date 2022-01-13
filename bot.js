@@ -3,6 +3,10 @@ const { Telegraf } = require('telegraf');
 const getText = require('./convert');
 const getScreen = require('./screen');
 
+require('https').createServer().listen(process.env.PORT || 5000).on('request', function (req, res) {
+    res.end('')
+});
+
 require('dotenv').config();
 //create new instance of telegraf
 const bot = new Telegraf(process.env.TELEGRAM_ACCESS_TOKEN);
