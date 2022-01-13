@@ -14,9 +14,5 @@
     "googleapis": "^92.0.0",
     "puppeteer": "^13.0.1",
     "telegraf": "^4.5.2"
-  },
-  "engines": {
-    "node": "17.3.x",
-    "npm": "8.3.x"
   }
 }
