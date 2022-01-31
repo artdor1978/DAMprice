@@ -44,7 +44,7 @@ module.exports = async function scrape() {
         {
             spreadsheetId,
             auth:authClient,
-            range: "'РДН-Январь 2022'!C17",
+            range: "'РДН-Февраль 2022'!C17",
             valueInputOption: 'RAW',
             resource,
         },
