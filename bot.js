@@ -68,3 +68,7 @@ bot.launch();
 //https://archakov.im/post/kak-razmestit-telegram-bota-na-servere
 //https://archakov.im/post/telegram-bot-on-nodejs
 ///https://devcenter.heroku.com/articles/getting-started-with-nodejs#view-logs
+
+
+//https://www.codeproject.com/Tips/5274291/Building-a-Telegram-Bot-with-Azure-Functions-and-N
+//https://habr.com/ru/post/335886/
